@@ -41,15 +41,15 @@ int main()
 {
 	int min,temp,i,j,t,k;
 	clock_t start,end;
+	double x,y;
 	FILE *f=fopen("file.txt","w");
 	printf("Enter the no. of trial runs:-");
 	scanf("%d",&t);
 	for(k=1;k<=t;k++){
 	printf("Enter the no. of elements for testrun %d:- ",k);
 	scanf("%d",&n);
-	
-	int A[n];
 
+	int A[n];
 	for(i=0;i<n;i++)
 	A[i]=rand()%100;
 	
@@ -57,9 +57,9 @@ int main()
 	MergeSort(A,0,n-1);
 	end=clock();
 	
-	
-	double timetaken=((double)(end-start))/CLOCKS_PER_SEC;
-	fprintf(f,"%lf %lf\n",n,timetaken);
+	x=n;
+	y=((double)(end-start))/CLOCKS_PER_SEC;
+	fprintf(f,"%f %lf\n",x,y);
 	}
 	return 0;
 }
