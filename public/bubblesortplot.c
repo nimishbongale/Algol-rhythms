@@ -1,3 +1,9 @@
+/*
+Author:- Nimish Bongale
+Version 1.0.1
+Date:- 13/2/19
+A program which sorts an array using selection sort*/
+
 #include<stdio.h>
 #include<time.h>
 
