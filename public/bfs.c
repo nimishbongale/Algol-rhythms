@@ -1,3 +1,9 @@
+/*
+Author:- Nimish Bongale
+Version 1.0.1
+Date:- 13/2/19
+A program which demonstartes Breadth First Search(BFS) */
+
 #include<stdio.h>
 
 int a[20][20], q[20], visited[20], n, i, j, f = 0, r = -1;
