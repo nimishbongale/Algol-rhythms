@@ -1,3 +1,9 @@
+/*
+Author:- Nimish Bongale
+Version 1.0.2
+Date:- 22/2/19
+A program which sorts an array using merge sort*/
+
 #include<stdio.h>
 #include<time.h>
 
