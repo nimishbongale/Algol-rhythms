@@ -1,3 +1,9 @@
+/*
+Author:- Nimish Bongale
+Version 1.0.3
+Date:- 22/2/19
+A program which sorts an array using quick sort*/
+
 #include<stdio.h>
 #include<time.h>
 #include<stdlib.h>
