@@ -1,3 +1,9 @@
+/*
+Author:- Nimish Bongale
+Version 1.0.2
+Date:- 22/2/19
+A program which sorts an array using selection sort, and writes it into a file to plot it*/
+
 #include<stdio.h>
 #include<time.h>
 
