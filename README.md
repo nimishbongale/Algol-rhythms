@@ -1,6 +1,6 @@
 # Algol-rhythms
 
-AutomazionePython is a collection of all the codes that were a part of the Design and Analysis of Algorithms Lab Course, RITB.
+Algol-rhythms is a collection of all the codes that were a part of the Design and Analysis of Algorithms Lab Course, RITB.
 
 ## Installation
 
