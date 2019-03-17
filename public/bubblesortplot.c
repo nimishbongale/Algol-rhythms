@@ -24,36 +24,23 @@ int main()
 	A[i]=rand();
 	
 	start=clock();
-for(i=0;i<n;i++)
-
+	for(i=0;i<n;i++)
 		{
-
 			for(j=0;j<n-i-1;j++)
-
 			{
-
 				if(A[j]>A[j+1])
-
 				{
-
 					temp=A[j];
-
 					A[j]=A[j+1];
-
 					A[j+1]=temp;
-
 				}
-
 			}
-
 		}
 			end=clock();
 	x=n;
 	y=(double)(end-start)/CLOCKS_PER_SEC;
 	fprintf(f,"%lf %lf\n",x,y);
 }
-	
-	
 	fclose(f);
 	return 0;
 }
