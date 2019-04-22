@@ -7,7 +7,7 @@ Algol-rhythms is a collection of all the codes that were a part of the Design an
 Use the [git](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf) to install Algol-rhythms.
 
 ```bash
-git clone https://github.com/nimishbongale/AutomazionePython.git
+git clone https://github.com/nimishbongale/Algol-rhythms.git
 ```
 
 ## Usage
